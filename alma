@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="My journey of learning to code.">
+    <link rel="stylesheet" href="css/combined_index.css">
+    <title>Bell - My journey of learning to code.</title>
+    <link rel="icon" href="img/logo2.png">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="0">
+    <!-- Nyitólap -->
+    <a class="anchor" name="top"></a>
+
+    <div class="wrapper d-flex flex-column justify-content-center" id="top">
+
+        <!-- nav -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#top">Bell</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link ml-2" href="#top">Hobbym</a>
+                        <a class="nav-item nav-link ml-2" href="#about">Rólam</a>
+                        <a class="nav-item nav-link ml-2" href="#blog">Önéletrajzom angolul (English)</a>
+                        <a class="nav-item nav-link ml-2" href="#testLabLink">Önéletrajzom németül (Deutsch)</a>
+                        <a class="nav-item nav-link ml-2" href="#contact">Elérhetőségeim</a>
+                    </div>
+                </div>
+        </nav>
+        <!-- /nav -->
+        <div class="container">
+            <section class="text-center text-white">
+                <a href="oldalak/alma.html"><h2>Hobbym</h2></a>
+            </section>
+
+        </div>
+    </div>
+    <!-- /Nyitólap -->
+
+    <!-- Rólam -->
+    <div class="wrapper d-flex flex-column justify-content-center" id="about">
+        <div class="container">
+            <section class="text-center text-white">
+                <h2>Rólam</h2>
+                <p>Üdv a weboldalamon! A nevem Bell. Ennek az oldalnak a fő célja az, hogy 5-ös gyakjegyet kapjak infóból.
+				</p>
+					<a href="oldalak/html.html" target="_blank"><h3>Az önéletrajzom.<h3></a>
+                    
+					<p>Lejjebb megtalálható más nyelveken is.
+				</p>
+            </section>
+        </div>
+    </div>
+    <!-- /Rólam -->
+
+    <!-- Blog -->
+    <div class="wrapper d-flex flex-column justify-content-center" id="blog">
+        <div class="container">
+            <section class="text-center text-white">
+                <h2>Önéletrajzom angolul (English)</h2>
+					<a href="oldalak/htmlen.html" target="_blank">My autobiography</a>
+            </section>
+        </div>
+    </div>
+    <!-- /Blog -->
+
+    <!-- Teszt Labor -->
+
+    <div class="wrapper d-flex flex-column justify-content-center" id="blog">
+        <a class="anchor" id="testLabLink"></a>
+
+        <div class=" container">
+            <section class="text-center">
+                <h2>Önéletrajzom németül (deutsch)</h2>
+
+                <div class="d-block">
+					<a href="oldalak/htmlde.html" target="_blank">Lebenslauf auf Deutsch</a>
+                </div>
+
+
+                
+            </section>
+        </div>
+    </div>
+
+    <!-- /Teszt Labor -->
+
+    <!-- Elérhetőség -->
+    <div class="wrapper d-flex flex-column justify-content-center" id="contact">
+        <div class="container">
+            <section class="text-center text-white">
+                <h2>Elérhetőség</h2>
+                <p>Ha bármilyen észrevételed, megjegyzésed vagy kérdésed van
+                    az oldallal kapcsolatban írj egy e-mailt!</p>
+                        <a href="mailto:balassabella15@gmail.com"><h3>Az e-mail címem.</h3>
+						</a><p>
+						</p>
+						<a href="https://www.facebook.com/bell.balassa"><h3>A facebook-om.</h3>
+						</a><p>
+						</p>
+						<a href=""><h3>Az insta fiókom.</h3>
+						</a>
+            </section>
+        </div>
+    </div>
+    <!-- /Elérhetőség -->
+	
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script src="js/combined.js"></script>
+</body>
+
+</html>
